@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: a-sample-alfresco.aiml -->
+<!-- Author: Srikanth Josyula -->
+<!-- Last modified: July 06, 2020 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.1 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2020 by Cognizant. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see  -->
+<category><pattern># sample CLAIMS #</pattern>
+<template>What do you want to know about <br/>
+<ul>
+<li>Claims Raised By.</li>
+<li>Claim Documents of Claim No.</li>
+<li>Claim Status of Claim No.</li>
+</ul></template>
+</category>
+<category><pattern>* CLAIMS RAISED BY *</pattern>
+<template>RAISED_CLAIMS##{$ <star index="2"/> $}</template>
+</category>
+<category><pattern>* CLAIM DOCUMENTS OF *</pattern>
+<template>CLAIM_DOCUMENTS##{$ <star index="2"/> $}</template>
+</category>
+<category><pattern>* CLAIM STATUS OF *</pattern>
+<template>CLAIM_STATUS##{$ <star index="2"/> $}</template>
+</category>
+</aiml>

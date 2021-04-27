@@ -1,0 +1,4 @@
+0,# sample CLAIMS #,*,*,What do you want to know about <br/>#Newline<ul>#Newline<li>Claims Raised By.</li>#Newline<li>Claim Documents of Claim No.</li>#Newline<li>Claim Status of Claim No.</li>#Newline</ul>,a-sample-alfresco.aiml
+0,* CLAIMS RAISED BY *,*,*,RAISED_CLAIMS##{$ <star index="2"/> $},a-sample-alfresco.aiml
+0,* CLAIM DOCUMENTS OF *,*,*,CLAIM_DOCUMENTS##{$ <star index="2"/> $},a-sample-alfresco.aiml
+0,* CLAIM STATUS OF *,*,*,CLAIM_STATUS##{$ <star index="2"/> $},a-sample-alfresco.aiml

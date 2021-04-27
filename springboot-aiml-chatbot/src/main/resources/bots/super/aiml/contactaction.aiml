@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!-- File: contactaction.aiml -->
-<!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: May 17, 2020 -->
+<!-- Author: Srikanth Josyula -->
+<!-- Last modified: July 06, 2020 -->
 <!--  -->
-<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!-- This AIML file is part of the SUPER 0.0.1 chat bot knowledge base. -->
 <!--  -->
-<!-- The SUPER brain is Copyright &copy; 2020 by ALICE AI Foundation. -->
+<!-- The SUPER brain is Copyright &copy; 2020 by Cognizant. -->
 <!--  -->
 <!-- The SUPER brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
@@ -14,7 +14,7 @@
 <!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
-<!-- For more information see http://www.alicebot.org -->
+<!-- For more information see  -->
 <category><pattern>NEW CONTACT TEST ONE</pattern>
 <template>Adding a new contact.
 <addinfo>
