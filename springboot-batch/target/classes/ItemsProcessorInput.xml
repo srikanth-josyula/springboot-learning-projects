@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemsProcessorList>
+    <ItemsProcessorData>
+        <key>Key 1</key>
+        <value>Value 1</value>
+        <condition>true</condition>
+    </ItemsProcessorData>
+    <ItemsProcessorData>
+        <key>Key 2</key>
+        <value>Value 2</value>
+        <condition>true</condition>
+    </ItemsProcessorData>
+    <ItemsProcessorData>
+        <key>Key 3</key>
+        <value>Value 3</value>
+        <condition>false</condition>
+    </ItemsProcessorData>
+    <ItemsProcessorData>
+        <key></key>
+        <value>Value 4</value>
+        <condition>true</condition>
+    </ItemsProcessorData>
+</ItemsProcessorList>
