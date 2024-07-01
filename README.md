@@ -7,10 +7,12 @@ Welcome to the Spring Boot Learning Projects repository! This collection contain
 This repository is designed for anyone interested in learning Spring Boot. Each project focuses on a specific aspect of Spring Boot to provide a comprehensive learning experience.
 
 ## Projects
-
 ### Basic Spring Boot
 
 This project covers the fundamentals of Spring Boot, including application setup, basic configurations, and simple endpoints.
+#### Externalizing configuration
+- Override default settings for production and use command-line switches for testing (e.g., `java -jar app.jar --app.message="Command-Test"`).
+- Command-line properties take precedence unless explicitly disabled (`SpringApplication.setAddCommandLineProperties(false)`).
 
 ### Spring Boot REST API
 
