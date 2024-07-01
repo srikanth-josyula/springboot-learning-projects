@@ -20,7 +20,6 @@ This project covers the fundamentals of Spring Boot, including application setup
   ```bash
   java -jar myproject.jar --spring.config.location=classpath:/default.properties,classpath:/override.properties
 
-
 ### Spring Boot REST API
 
 In this project, you will learn how to create RESTful web services using Spring Boot. It includes examples of GET, POST, PUT, and DELETE endpoints.
