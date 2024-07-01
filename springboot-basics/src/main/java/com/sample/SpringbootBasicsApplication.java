@@ -7,16 +7,20 @@ import org.springframework.beans.factory.annotation.Value;
 
 @SpringBootApplication
 public class SpringbootBasicsApplication implements CommandLineRunner {
-	
+
 	@Value("${app.message}")
-    private String message;
+	private String message;
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringbootBasicsApplication.class, args);
-    }
+	@Value("${name}")
+	private String name;
 
-    @Override
-    public void run(String... args) throws Exception {
-        System.out.println(message);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootBasicsApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println("Hello, " + name + "!");
+		System.out.println(message);
+	}
 }
