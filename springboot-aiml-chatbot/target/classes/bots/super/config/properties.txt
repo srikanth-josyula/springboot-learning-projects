@@ -1,8 +1,0 @@
-url:
-name:SUPER
-email:813448@cognizant.com
-gender:male
-botmaster:Srikanth Josyula
-organization:Cognizant
-version:0.0.1
-
