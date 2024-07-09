@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  
+spring:
+  profiles: dev
+
+app:
+  welcomeMessage: Welcome to the Document Service Application!
+  name: Document Service Application -- Dev
+  description: ${app.name} is a Spring Boot application
+
+
+file:
+  path: /path/to/your/files
+  
+  
+azure:
+  storage:
+    connection-string: <your-azure-connection-string>
+    container-name: <your-container-name>

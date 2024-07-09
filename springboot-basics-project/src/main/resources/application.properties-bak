@@ -1,0 +1,12 @@
+server.port=8080
+
+
+# Welcome message displayed at application startup
+app.welcomeMessage=Welcome to the Document Management System
+
+# Path for local file storage
+file.path=/path/to/local/storage
+
+# Azure Storage configurations
+azure.storage.connection-string=<your-azure-connection-string>
+azure.storage.container-name=<your-container-name>
