@@ -18,6 +18,7 @@ public class DocumentDeleteController {
 
 	@Autowired
 	private DocumentServiceImpl documentService;
+	
 	@DeleteMapping(value = "/delete/{id}")
 	public ResponseEntity<Void> deleteDocument(@PathVariable String id) {
 		try {

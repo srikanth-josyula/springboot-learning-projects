@@ -21,14 +21,11 @@ public class DocumentSearchController {
 	@Autowired
 	private DocumentServiceImpl documentService;
 
-	// Handle both POST and GET requests at the same URI
-	// POST Request: If documentDetails is provided, the method treats it as a POST
-	// request to create a new document.
-	// GET Request with ID: If documentId is provided, it treats the request as a
-	// GET request to retrieve a specific document by ID.
+	
 	@RequestMapping(value = "/search", method = { RequestMethod.POST, RequestMethod.GET })
 	@ResponseBody
-	public ResponseEntity<Object> handleDocumentOperations(@RequestBody(required = false) Document documentDetails,
+	public ResponseEntity<Object> handleDocumentOperations(
+			@RequestBody(required = false) Document documentDetails,
 			@RequestParam(value = "id", required = false) UUID documentId) {
 
 		if (documentDetails != null) {
